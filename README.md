@@ -1,11 +1,10 @@
-# js-lab-154
-### Lab 154 ES6: ฟังก์ชัน cloneObject
-จงเขียนฟังก์ชัน cloneObject โดยรับพารามิเตอร์มาเป็น Object และ return ค่าเป็น Object ที่มี key-value เหมือนกับพารามิเตอร์ที่รับเข้ามาทุกตัว
+# js-lab-155
+### Lab 155 ES6: result1
+ผลลัพธ์ในบรรทัดที่มี * มีค่าเป็นอะไรและเพราะอะไร
 
 ```JavaScript
-const originalObject = { a: 1, b: 2, c: 3 };
-const clonedObject = cloneObject(originalObject);
-
-console.log(originalObject); // { a: 1, b: 2, c: 3 }
-console.log(clonedObject); // { a: 1, b: 2, c: 3 }
+let [first, second, third] = ['Maya', 'Marisa', 'Chi'];
+console.log(first); // *
+console.log(second); // **
+console.log(third); // ***
 ```
